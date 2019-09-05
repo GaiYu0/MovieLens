@@ -1,7 +1,7 @@
 import sys
 import numpy as np
 
-prefix = sys[1]
+prefix = sys.argv[1]
 
 uids = np.load('uids.npy')
 iids = np.load('iids.npy')
